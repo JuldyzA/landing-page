@@ -42,8 +42,8 @@ h4,
 h5,
 h6 {
 	font-family: Georgia, Times, "Times New Roman", serif;
-	margin: .5em 0;
-	font-size: 2rem;
+	/* margin: .5em; */
+	font-size: 1.4rem;
 
 }
 
@@ -52,7 +52,7 @@ h6 {
 --------------------------------------------- */
 section
 {
-	padding: 0 3rem;
+	padding: 0 auto;
 }
 
 
@@ -87,19 +87,19 @@ a:focus {
 /* Header
 --------------------------------------------- */
 .site-header {
-	padding: 2rem 1rem;
+	padding: 0.5rem 0.5rem;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 
 .nav-menu li a:hover {
-	font-size: 2.2rem;
+	font-size: 1.8rem;
 	
 }
 a.site-name {
 	font-family: "Pacifico", cursive;
-	font-size: 1.6rem;
+	font-size: 1.4rem;
 	text-decoration: none;
 	color: #032c3c;
 }
@@ -111,17 +111,16 @@ a.site-name {
 	text-align: center;
 	display: none;
 	position: absolute;
-	top: 4.5rem;  
+	top: 3rem;  
 	left: 0;
 	right: 0;
 	z-index: 2;
 	
 }
 
-.site-navigation.toggled ul {
+/* .site-navigation.toggled ul {
 	display: block;
-	margin: 5rem;
-}
+} */
 
 .site-navigation a {
 
@@ -138,8 +137,8 @@ a.site-name {
 	display: block;
     background-color: transparent;
     border: 0;
-    padding: 1rem;
-    margin-right: 3rem;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .menu-toggle:focus {
@@ -156,7 +155,7 @@ a.site-name {
 	.site-navigation a{
 		flex: 1 1 auto;
 		color: #000808;
-		font-size: 1.8rem;
+		font-size: 1.6rem;
 		
 	}
 
@@ -199,14 +198,13 @@ a.site-name {
 .page-header img {
 	display: block;
 	object-fit: cover;
-	height: 30rem;
+	height: 26rem;
+	width: 100%;
 }
 
 
 @media (min-width: 50em) {
-	.page-header h1{
-		font-size: 3rem;
-	}
+	
 	.page-header img {
 		display: block;
 		object-fit: cover;
@@ -222,15 +220,14 @@ a.site-name {
 	
 	text-align: center;
 	padding: 2rem 1rem;
-	margin: 0 auto;
-	
-	
+	margin: 0 auto;	
 }
 
 .section-about p{
-	color: #4f2803;
-	font-size: 1.4rem;
-	padding-bottom: 3rem;
+
+	font-size: 1rem;
+	padding-bottom: 2rem;
+	margin: 0.5rem;
 }
 @media (min-width: 50em){
 
@@ -246,17 +243,16 @@ a.site-name {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	padding-bottom: 5rem;
+	padding-bottom: 4rem;
 	flex: 1 1 auto;
-	color: #080408;
 
 }
 
 .projects{
 	display: block;
 	position: relative;
-	height: 25rem;
-	width: 25rem;
+	height: 20rem;
+	width: 20rem;
 	overflow: hidden;
 	border: solid #471fa3;
 	border-radius: 30px;
@@ -350,7 +346,7 @@ a.projects:hover{
 	
 }
 footer h2{
-	font-size: 1.7rem;
+	font-size: 1.4rem;
 }
 
 .site-footer a{
