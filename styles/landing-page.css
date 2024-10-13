@@ -229,9 +229,12 @@ a.site-name {
 }
 @media (min-width: 50em){
 
-	.section-about p{
 
+	.section-about p{
+		width:600px;
+		margin: 0 auto;
 		padding-bottom: 5rem;
+		font-size: 1rem;
 	}
 }
 
