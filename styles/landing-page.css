@@ -204,6 +204,9 @@ a.site-name {
 
 @media (min-width: 50em) {
 	
+	.page-header h1{
+		font-size: 2rem;
+	}
 	.page-header img {
 		
 		height: 35rem;
